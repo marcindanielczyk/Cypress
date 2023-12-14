@@ -35,3 +35,15 @@
 //     }
 //   }
 // }
+
+// Dodanie rozszerzenia dla typu Chainable
+declare namespace Cypress {
+    interface Chainable<Subject = any> {
+      getByTestId(testId: string): Chainable<JQuery<HTMLElement>>;
+    }
+  }
+  
+  // Dodanie niestandardowej komendy
+  Cypress.Commands.add("getByTestId", (testId: string) => {
+    cy.get(`[data-cy='${testId}']`);
+  });

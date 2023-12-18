@@ -1,2 +1,2 @@
 # CypressCrashCourse
-First cypress crash course
+First Cypress crash course

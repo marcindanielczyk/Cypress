@@ -1,12 +1,9 @@
 # CypressCrashCourse
 First Cypress crash course
 
-This is simple React app to learn to test some basics using Cypress when I have already wrote down some tests
+This is simple React app to learn to test some basics using Cypress.
 
 # Getting Started
-
-## final
-1. This is project-1 and project-2 in one folder
 
 ## project-1
 1. Clone the repository: `git clone https://github.com/marcindanielczyk/Cypress.git`

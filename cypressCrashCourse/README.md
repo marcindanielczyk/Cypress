@@ -2,7 +2,6 @@
 First Cypress crash course
 
 This is simple React app to learn to test some basics using Cypress.
-You have to have Node.js and Cypress already installed to run the tests.
 
 # Getting Started
 

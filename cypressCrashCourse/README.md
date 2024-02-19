@@ -22,3 +22,6 @@ This is simple React app to learn to test some basics using Cypress.
 7. Navigate to the server directory: `cd server`
 8. Install dependencies: `npm install`
 9. Start the server: `node index.js`
+10. Go back to the project-2 directory: `cd ..`
+11. Navigate to the directory: `cd client`
+12. Run the cypress: `npx cypress open`
